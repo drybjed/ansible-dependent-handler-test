@@ -1,0 +1,7 @@
+---
+
+- name: Touch role file
+  command: touch {{ directory }}/role_file
+  notify: Dependent handler
+
+

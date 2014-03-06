@@ -1,0 +1,19 @@
+---
+
+- hosts: all
+
+  vars:
+    directory: '/tmp/first_test'
+
+  roles:
+    - role: role
+
+- hosts: all
+
+  vars:
+    directory: '/tmp/second_test'
+
+  roles:
+    - role: role
+
+
